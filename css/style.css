@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -8,17 +6,49 @@ body{
 }
 .container{
     width: 1170px;
-    margin: 0 auto;
+    margin: 32px auto;
+    
 }
 .row{
     display: flex;
     justify-content: space-between;
-
 }
 ul{
-    list-style: none;
     display: flex;
 }
-.nav-list{
-    flex-wrap: wrap;
+li{
+    list-style: none;
+    padding-right: 34px;
 }
+.get{
+    text-decoration: none;
+    background-color:#F25822 ;
+    width: 110px;
+    height: 40px;
+    color: #fff;
+    border-radius: 30px;
+}
+.logo{
+    width: 137px;
+    height: 40px;
+}
+.active{
+    color:#F25822;
+}
+a{
+    text-decoration: none;
+}
+.box-one{
+    background-image: url(/image/background.svg);
+    background-repeat: no-repeat;
+}
+.marketing{
+    width: 543px;
+    height: 374px;
+    padding-top: 143px;
+}
+.video{
+    display: flex;
+}
+
+    
