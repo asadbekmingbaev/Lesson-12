@@ -1,51 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf">
     <title>Growbe</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/col.css">
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
+    
+    <div class="container">
+        <header>
+            <div class="header">
                 <div class="logo">
                     <img src="./image/Logo.svg" alt="logo">
                 </div>
-                <div class="nav-list">
+                <nav class="navbar">
                     <ul>
-                        <li class="active">Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Faetures</li>
-                        <li>Team</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-                <div>
-                    <button class="get"><a href="#">Get Started</a></button>
-                </div>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li class="Features">
+                            <select name="Features" id="Features">
+                                <option value="Features">Features</option>
+                                <option value="Features">Features</option>
+                                <option value="Features">Features</option>
+                            </select>
+                        </li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><button class="get">Get Started</button></li>
+                       </ul>
+                </nav>
             </div>
-        </div>
-        <div class="box-one">
-            <div class="marketing">
-                <h1>SEO & Digital Marketing For Your Website.</h1>
-                <p>Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
+        </header>
+       
+       
+        <div class="title">
+            <div class="title-text">
+                <h1 class="SEO">SEO & Digital Marketing For Your Website.</h1>
+                <p class="tit-text">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
                 <div class="video">
-                    <button>Start Now</button>
-                    <i class='bx bx-play-circle'></i>
-                    <p>watch video</p>
+                    <button class="start">Start Now</button>
+                    <img src="./image/play.png" alt="play">
+                    <p>Watvh Video</p>
                 </div>
-            </div>
 
+            </div>
+            <div class="title-img">
+                <img src="./image/Image-1.png" alt="Image-1">
+            </div>
         </div>
-    </header>
-    
+
+        <div class="partner">
+            <ul>
+                <li><img src="./image/1.png" alt="1"></li>
+                <li><img src="./image/3.png" alt="3"></li>
+                <li><img src="./image/4.png" alt="4"></li>
+                <li><img src="./image/5.png" alt="5"></li>
+                <li><img src="./image/6.png" alt="6"></li>
+                <li><img src="./image/6-1.png" alt="6-1"></li>
+            </ul>
+        </div>
+    </div>
 </body>
+
+
 </html>

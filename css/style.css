@@ -1,54 +1,137 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #fff;
+
+.container {
+    width: 1920px;
+    height: 700px;
 }
-.container{
+
+.header {
     width: 1170px;
-    margin: 32px auto;
-    
-}
-.row{
+    height: 40px;
     display: flex;
     justify-content: space-between;
+    margin: 40px auto;
 }
-ul{
-    display: flex;
-}
-li{
-    list-style: none;
-    padding-right: 34px;
-}
-.get{
-    text-decoration: none;
-    background-color:#F25822 ;
-    width: 110px;
-    height: 40px;
-    color: #fff;
-    border-radius: 30px;
-}
-.logo{
-    width: 137px;
-    height: 40px;
-}
-.active{
-    color:#F25822;
-}
-a{
-    text-decoration: none;
-}
-.box-one{
-    background-image: url(/image/background.svg);
-    background-repeat: no-repeat;
-}
-.marketing{
-    width: 543px;
-    height: 374px;
-    padding-top: 143px;
-}
-.video{
+
+ul {
     display: flex;
 }
 
-    
+ul li {
+    list-style: none;
+    margin-left: 34px;
+}
+
+ul .active a {
+    color: red;
+}
+
+#Features {
+    border: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.logo img {
+    width: 137px;
+    height: 38px;
+}
+
+.get {
+    width: 120px;
+    height: 40px;
+    background-color: #f25822;
+    border-radius: 30px;
+    margin-top: -10px;
+    color: #fff;
+    border: none;
+}
+
+.title {
+    display: flex;
+}
+
+.title-text {
+    width: 543px;
+    height: 374px;
+    margin-top: 223px;
+    margin-left: 352px;
+    text-align: start;
+    font-size: 22px;
+
+}
+
+.SEO{
+    width: 522px;
+    height: 222px;
+    font-weight: 1300;
+}
+
+.title-text{
+    width: 466px;
+    height: 48px;
+}
+
+.video{
+    width: 302px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    align-items: baseline;
+
+}
+
+
+.start{
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #f25822;
+    color: #fff;
+    border: none;
+}
+
+
+.video img {
+    width: 30px;
+    height: 30px;
+}
+
+.title-img {
+    width: 945px;
+    height: 577px;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.partner {
+    width: 1200px;
+    height: 50px;
+    margin-top:  96px ;
+    margin-left: 300px;
+
+}
+
+.partner ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner ul li{
+    list-style: none;
+}
+
+.partner img{
+    width: 160px;
+    height: 50px;
+}
+
